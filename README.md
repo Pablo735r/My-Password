@@ -1,6 +1,9 @@
 # My Password
 One of my personal projects
 
+These are just two of the views
+
+
 Home View
 
 
