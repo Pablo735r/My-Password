@@ -1,0 +1,67 @@
+
+
+
+[
+  {
+    "id": 1,
+    "title": "Think Before You Click",
+    "tip": "Links in mails in the form of password recovery emails, bank statements, etc. Are among the most popular methods used by hackers to trick you and gain your personal information. The fake sites connected to these links are too similar to the real ones where the hackers will get you to provide your personal details and gain access to your account using the same.\n"
+  },
+  {
+    "id": 2,
+    "title": "Use Strong Passwords",
+    "tip": "This is another one of the most significant cyber safety tips for users. It may be easy to use and remember the same password across multiple platforms for all your accounts but it makes your account more insecure. You should use distinct passwords for all your different accounts."
+    
+  },
+  {
+    "id": 3,
+    "title": "Use a Password Manager Tool",
+    "tip": "It may be difficult to remember so many passwords for your various accounts, which is when My Password comes into the picture. Is an app that will help you store and manage all your passwords together. You will be able to access all these passwords. And keep these credentials secured."
+    
+  },
+  {
+    "id": 4,
+    "title": "Use more characters",
+    "tip":  "Consider the following: \n 1- Use passwords with more than 8 characters and a maximum of 18 characters. \n 2- Never make use of the same password twice. \n 3- Use at least one uppercase letter, one lowercase letter, one number, and a few symbols other than &, #, _, @, etc."
+    
+  },
+  {
+    "id": 5,
+    "title": "Enable Two-Factor Authentication (2FA)",
+    "tip":  "Whenever possible, enable two-factor authentication for your online accounts. This adds an extra layer of security by requiring a second form of verification."
+    
+  },
+  {
+    "id": 6,
+    "title": "Keep Software Updated",
+    "tip":  "Regularly update your operating system, applications, and antivirus software to patch security vulnerabilities."
+    
+  },
+  {
+    "id": 7,
+    "title": "Be Wary of Unsolicited Emails",
+    "tip": "Avoid clicking on links or downloading attachments from unsolicited emails. Verify the sender's identity before taking any action."
+    
+  },
+  {
+    "id": 8,
+    "title": "Secure Your Mobile Devices",
+    "tip": "Set a strong passcode or use biometric authentication on your mobile devices. Install security updates and only download apps from trusted sources."
+    
+  },
+  {
+    "id": 9,
+    "title": "Be Cautious on Social Media",
+    "tip": "Limit the personal information you share on social media platforms. Be aware of privacy settings and adjust them to control who can see your posts."
+    
+  },
+  {
+    "id": 10,
+    "title": "Educate Yourself about Phishing Attacks",
+    "tip": "Learn to recognize phishing attempts, where attackers try to trick you into providing sensitive information. Be skeptical of unexpected emails or messages requesting personal information."
+    
+  }
+  
+]
+ 
+ 
