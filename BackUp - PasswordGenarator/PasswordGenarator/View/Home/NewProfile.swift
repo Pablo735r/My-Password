@@ -9,7 +9,6 @@ import SwiftUI
 
 struct NewProfile: View {
     
-    //@ObservedObject var newProfile: NewProfileConstants
     @ObservedObject var nPModel: NewProfileViewModel
     
     @Environment(\.colorScheme) var colorScheme
