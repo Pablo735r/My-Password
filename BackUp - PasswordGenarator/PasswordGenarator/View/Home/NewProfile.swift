@@ -90,19 +90,13 @@ struct NewProfile: View {
                 
                 
             }label: {
-//                XButtonView(symbolName: "xmark.circle.fill", colorName: Color(.label))
+
                 Image(systemName: "xmark.circle.fill")
                     .frame(width: 44, height: 44)
                     .foregroundStyle(Color(.label))
             }
             )}
         }
-        
-//        .onAppear {
-//#if DEBUG
-//            UserDefaults.standard.set(true, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
-//#endif
-//        }
         
     }
 
