@@ -4,19 +4,11 @@
 //
 //  Created by Pablo Rojas on 12/11/22.
 //
-
-/*
- NavigationLink(destination: DetailViewPassword(detailModel: DetailViewModel(detailView: DetailModel(siteName: data.unwrappedSiteName, userName: data.unwrappedUserName, password: data.unwrappedPassword)), dataUser: data)){
- Label(data.siteName ?? "profile not saved", systemImage: "person.circle.fill")
- }
- */
-
 import SwiftUI
 import CoreData
 
 struct SavedPasswords: View {
     
-    //@ObservedObject var savedPasswords: SavedPasswordsConstants
     @ObservedObject var sPModel: SavedPasswordsViewModel
     @StateObject var detailModel: DetailViewModel
     
@@ -43,13 +35,8 @@ struct SavedPasswords: View {
                                 Label(data.siteName ?? "profile not saved", systemImage: "person.circle.fill")
                                     
                             }
-                            
-                            
                         }
-                        //.minimumScaleFactor(0.5)
                         .textSelection(.enabled)
-                        //.listRowBackground(Color("backgroundColor4"))
-                        
                     }
                     .onDelete(perform: deleteUsers)
                     
@@ -75,15 +62,10 @@ struct SavedPasswords: View {
                 } .sheet(isPresented: $sPModel.savedPassword.isPresentedUser) {
                     
                     NewProfile(nPModel: sampleNewProfileModel)
-                    //.presentationDetents([.fraction(0.6)])
-                    //.presentationDetents([.medium, .large])
+                   
                 })
-                
-                //.navigationBarTitleDisplayMode(.inline)
                 .navigationBarTitle("Profile", displayMode: .inline)
-                //.listSectionSeparator(.hidden, edges: .bottom)
                 .listStyle(.inset)
-                //.searchable(text: searchQuery)
                 .searchable(text: searchQuery, placement:
                         .navigationBarDrawer(displayMode: .automatic))
                 .autocapitalization(.none)
@@ -95,12 +77,7 @@ struct SavedPasswords: View {
             
             
         }
-        
-        
-        
-        //        .scrollContentBackground(.hidden)
     }
-    
     
     func deleteUsers(offsets: IndexSet) {
         offsets.map { passwordData[$0] }.forEach(manageObjContext.delete)
@@ -121,12 +98,8 @@ struct SavedPasswords: View {
                 format: "siteName contains[cd] %@",
                 newValue)
         }
-    }
-    
-    
-    
+    } 
 }
-
 
 struct SavedPasswords_Previews: PreviewProvider {
     static var previews: some View {
