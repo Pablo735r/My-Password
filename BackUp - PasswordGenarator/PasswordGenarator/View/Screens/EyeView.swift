@@ -25,17 +25,12 @@ struct EyeView: View {
                         }
                         
                     }
-                
-                    //.border(colorScheme == .light ? .white : .black)
-                    //.textFieldStyle(RoundedBorderTextFieldStyle())
                     .overlay(alignment: .trailing){
                         Text( isSecureTextField ? "show" : "hide")
                             .foregroundStyle(.gray)
                             .onTapGesture {
                                 isSecureTextField.toggle()
                             }
-                           
-                            
                 }
         
             }
@@ -49,5 +44,3 @@ struct EyeView_Previews: PreviewProvider {
         EyeView(passText: .constant("smf8jd923"), placeholder: "password")
     }
 }
-
-
