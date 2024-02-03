@@ -28,17 +28,7 @@ class DataController: ObservableObject{
             fatalError("An error occured: \(error)")
         }
     }
-    
-//    func updateContext(site: String, user: String, password: String,context: NSManagedObjectContext) {
-//
-//        let userData = User(context: context)
-//        userData.siteName = site
-//        userData.userName = user
-//        userData.password = password
-//        saveContext(context: context)
-//
-//    }
-    
+
 }
 
     
