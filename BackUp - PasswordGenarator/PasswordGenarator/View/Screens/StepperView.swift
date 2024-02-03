@@ -4,9 +4,7 @@
 //
 //  Created by Pablo Amador on 25/1/24.
 //
-
 import SwiftUI
-
 
 struct StepperView: View {
     
@@ -15,13 +13,12 @@ struct StepperView: View {
     var body: some View {
         HStack {
             Stepper("Select lenght", value: $stepperValue, in: 6...24)
-                .overlay(HStack { //para ponerlo en el centro
+                .overlay(HStack {
                     Text("\(stepperValue)")
                         .font(.system(size: 20))
                 })
                 .padding(10)
                 .bold()
-            
         }
         .background(Color.gray.opacity(0.2))
         .cornerRadius(10)
