@@ -31,10 +31,3 @@ struct BackgroundStyleView: View {
     BackgroundStyleView(topColor: Color.orange, bottomColor: Color.red)
 }
 
-
-//    let gradient = LinearGradient(colors: [.gray, .gray, .white],
-//                                    startPoint: .topLeading,
-//                                    endPoint: .bottomTrailing)
-//    let gradienBlack = LinearGradient(colors: [.black, .black],
-//                                    startPoint: .topLeading,
-//                                    endPoint: .bottomTrailing)
